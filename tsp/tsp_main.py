@@ -166,33 +166,26 @@ def mutacao(solucao, n, taxa_mutacao=0.05):
         solucao[i], solucao[j] = solucao[j], solucao[i]
     return solucao
 
+def selecao(populacao, distancias, n, tamanho_torneio=3, custos=None):
+    if custos is None:
+        custos = [funcao_objetivo_tsp(n, individuo, distancias) for individuo in populacao]
 
-def selecao(populacao, distancias, n, tamanho_torneio=3):
     participantes = random.sample(populacao, tamanho_torneio)
     melhor_individuo = participantes[0]
-    melhor_custo = funcao_objetivo_tsp(n, melhor_individuo, distancias)
-    
+    for i, individuo in enumerate(populacao):
+        if np.array_equal(individuo, melhor_individuo):
+            melhor_custo = custos[i]
+            break
     for individuo in participantes[1:]:
-        custo = funcao_objetivo_tsp(n, individuo, distancias)
-        if custo < melhor_custo:
-            melhor_individuo = individuo
-            melhor_custo = custo
-            
-    return melhor_individuo
-
-def selecao_torneio(populacao, custos, tamanho_torneio=3):
-    participantes = random.sample(populacao, tamanho_torneio)
-    melhor_individuo = participantes[0]
-    melhor_custo = custos[populacao.index(melhor_individuo)]
-
-    for individuo in participantes[1:]:
-        custo = custos[populacao.index(individuo)]
+        for i, ind in enumerate(populacao):
+            if np.array_equal(ind, individuo):
+                custo = custos[i]
+                break
         if custo < melhor_custo:
             melhor_individuo = individuo
             melhor_custo = custo
 
     return melhor_individuo
-
 
 def algoritmo_genetico(pontos, max_iter=2000, tamanho_populacao=100, taxa_mutacao=0.05, tamanho_torneio=3):
     n = len(pontos)
