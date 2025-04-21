@@ -1,0 +1,70 @@
+Algoritmo: Têmpera Simualda
+Nº Pontos: 50
+Melhor Custo: 5829.52
+Tempo Execução (s): 0.19
+------------------------------
+Algoritmo: Busca Local AG
+Nº Pontos: 50
+Melhor Custo: 4079.57
+Tempo Execução (s): 0.20
+------------------------------
+Algoritmo: Têmpera Simualda
+Nº Pontos: 100
+Melhor Custo: 12894.97
+Tempo Execução (s): 0.08
+------------------------------
+Algoritmo: Busca Local AG
+Nº Pontos: 100
+Melhor Custo: 9607.67
+Tempo Execução (s): 0.08
+------------------------------
+Algoritmo: Têmpera Simualda
+Nº Pontos: 200
+Melhor Custo: 27787.79
+Tempo Execução (s): 0.18
+------------------------------
+Algoritmo: Busca Local AG
+Nº Pontos: 200
+Melhor Custo: 19660.51
+Tempo Execução (s): 0.20
+------------------------------
+Algoritmo: Têmpera Simualda
+Nº Pontos: 500
+Melhor Custo: 76310.66
+Tempo Execução (s): 0.75
+------------------------------
+Algoritmo: Busca Local AG
+Nº Pontos: 500
+Melhor Custo: 58896.01
+Tempo Execução (s): 0.80
+------------------------------
+Algoritmo: Têmpera Simualda
+Nº Pontos: 1000
+Melhor Custo: 162353.86
+Tempo Execução (s): 2.64
+------------------------------
+Algoritmo: Busca Local AG
+Nº Pontos: 1000
+Melhor Custo: 138073.86
+Tempo Execução (s): 3.70
+------------------------------
+Algoritmo: Têmpera Simualda
+Nº Pontos: 2000
+Melhor Custo: 342935.18
+Tempo Execução (s): 12.41
+------------------------------
+Algoritmo: Busca Local AG
+Nº Pontos: 2000
+Melhor Custo: 315455.82
+Tempo Execução (s): 12.52
+------------------------------
+Algoritmo: Têmpera Simualda
+Nº Pontos: 5000
+Melhor Custo: 938083.09
+Tempo Execução (s): 63.83
+------------------------------
+Algoritmo: Busca Local AG
+Nº Pontos: 5000
+Melhor Custo: 910983.70
+Tempo Execução (s): 50.90
+------------------------------
