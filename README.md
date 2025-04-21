@@ -55,7 +55,3 @@ Para rodar o experimento completo:
 ```bash
 python tsp_main.py
 ```
-
-## Autor
-
-Este projeto foi desenvolvido como estudo comparativo de algoritmos heurísticos para o TSP.
