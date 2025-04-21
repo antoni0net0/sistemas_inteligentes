@@ -1,0 +1,70 @@
+Algoritmo: Têmpera Simulada
+Nº Pontos: 50
+Melhor Custo: 6020.66
+Tempo Execução (s): 0.04
+------------------------------
+Algoritmo: Algoritmo Genético
+Nº Pontos: 50
+Melhor Custo: 1060.24
+Tempo Execução (s): 29.56
+------------------------------
+Algoritmo: Têmpera Simulada
+Nº Pontos: 100
+Melhor Custo: 12640.52
+Tempo Execução (s): 0.06
+------------------------------
+Algoritmo: Algoritmo Genético
+Nº Pontos: 100
+Melhor Custo: 844.76
+Tempo Execução (s): 47.00
+------------------------------
+Algoritmo: Têmpera Simulada
+Nº Pontos: 200
+Melhor Custo: 28361.93
+Tempo Execução (s): 0.13
+------------------------------
+Algoritmo: Algoritmo Genético
+Nº Pontos: 200
+Melhor Custo: 1983.30
+Tempo Execução (s): 135.92
+------------------------------
+Algoritmo: Têmpera Simulada
+Nº Pontos: 500
+Melhor Custo: 74714.58
+Tempo Execução (s): 0.78
+------------------------------
+Algoritmo: Algoritmo Genético
+Nº Pontos: 500
+Melhor Custo: 3417.18
+Tempo Execução (s): 357.29
+------------------------------
+Algoritmo: Têmpera Simulada
+Nº Pontos: 1000
+Melhor Custo: 164332.76
+Tempo Execução (s): 2.33
+------------------------------
+Algoritmo: Algoritmo Genético
+Nº Pontos: 1000
+Melhor Custo: 15531.83
+Tempo Execução (s): 634.30
+------------------------------
+Algoritmo: Têmpera Simulada
+Nº Pontos: 2000
+Melhor Custo: 343777.75
+Tempo Execução (s): 6.47
+------------------------------
+Algoritmo: Algoritmo Genético
+Nº Pontos: 2000
+Melhor Custo: 37341.00
+Tempo Execução (s): 1328.66
+------------------------------
+Algoritmo: Têmpera Simulada
+Nº Pontos: 5000
+Melhor Custo: 947446.08
+Tempo Execução (s): 32.40
+------------------------------
+Algoritmo: Algoritmo Genético
+Nº Pontos: 5000
+Melhor Custo: 119060.73
+Tempo Execução (s): 3555.71
+------------------------------
