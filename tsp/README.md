@@ -24,7 +24,7 @@ Parâmetros ajustáveis:
 - Fator de resfriamento (alpha)
 - Número máximo de iterações
 
-Embora rápida, a Têmpera Simulada apresenta **maior custo computacional** em instâncias maiores, devido ao grande número de iterações necessárias para encontrar soluções satisfatórias, especialmente em comparação com o Algoritmo Genético.
+Embora rápida, a Têmpera Simulada apresenta **maior custo computacional** em todas as instâncias, devido ao grande número de iterações necessárias para encontrar soluções satisfatórias, especialmente em comparação com o Algoritmo Genético.
 
 ### Busca Local AG
 
