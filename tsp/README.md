@@ -1,3 +1,4 @@
+
 # Comparação de Algoritmos para o Problema do Caixeiro Viajante (TSP)
 
 Este projeto tem como objetivo comparar o desempenho de dois algoritmos para resolução do Problema do Caixeiro Viajante (TSP - Travelling Salesman Problem):
@@ -16,16 +17,18 @@ Este projeto tem como objetivo comparar o desempenho de dois algoritmos para res
 
 ### Têmpera Simulada
 
-Algoritmo inspirado no processo de resfriamento de metais, que aceita soluções piores com certa probabilidade para escapar de mínimos locais.
+A Têmpera Simulada é um algoritmo inspirado no processo de resfriamento de metais, aceitando soluções piores com certa probabilidade para escapar de mínimos locais. Sua principal vantagem é a **rapidez de execução**, especialmente em instâncias menores, uma vez que explora eficientemente o espaço de soluções.
 
 Parâmetros ajustáveis:
 - Temperatura inicial e final
 - Fator de resfriamento (alpha)
 - Número máximo de iterações
 
+Embora rápida, a Têmpera Simulada apresenta **maior custo computacional** em instâncias maiores, devido ao grande número de iterações necessárias para encontrar soluções satisfatórias, especialmente em comparação com o Algoritmo Genético.
+
 ### Busca Local AG
 
-Algoritmo simples que tenta melhorar a solução trocando duas cidades de lugar, mantendo a troca somente se ela melhorar o custo total do percurso.
+O Algoritmo Genético de Busca Local é um método que tenta melhorar a solução trocando duas cidades de lugar, mantendo a troca somente se ela reduzir o custo total do percurso. Este algoritmo tende a ser **mais eficiente em termos de custo computacional**, pois, embora envolva uma maior quantidade de tempo, as soluções são encontradas de forma mais gradual e com menor custo por iteração.
 
 ## Estrutura de Arquivos Gerados
 
@@ -55,3 +58,4 @@ Para rodar o experimento completo:
 ```bash
 python tsp_main.py
 ```
+
