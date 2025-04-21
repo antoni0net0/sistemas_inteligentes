@@ -53,7 +53,7 @@ pip install numpy matplotlib pandas
 Para rodar o experimento completo:
 
 ```bash
-python seu_arquivo.py
+python tsp_main.py
 ```
 
 ## Autor
