@@ -30,6 +30,12 @@ Embora rápida, a Têmpera Simulada apresenta **maior custo computacional** em t
 
 O Algoritmo Genético de Busca Local é um método que tenta melhorar a solução trocando duas cidades de lugar, mantendo a troca somente se ela reduzir o custo total do percurso. Este algoritmo tende a ser **mais eficiente em termos de custo computacional**, pois, embora envolva uma maior quantidade de tempo, as soluções são encontradas de forma mais gradual e com menor custo por iteração.
 
+## Comparação Gráfica de Desempenho
+
+Abaixo está um exemplo de gráfico comparando a evolução do custo ao longo do tempo para os dois algoritmos, perceba como para 2000 pontos o custo da Têmpera Simulada é quase 10 vezes maior que o da Busca Local AG:
+
+![Comparação de Desempenho](comparacao_graficos_tsp/comparacao_2000_pontos.png)
+
 ## Estrutura de Arquivos Gerados
 
 - `resultados_tsp.txt`: resumo dos custos e tempos de execução dos algoritmos.
