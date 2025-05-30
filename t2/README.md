@@ -39,12 +39,6 @@ O MLP é construído usando a biblioteca TensorFlow/Keras. O modelo inclui camad
 
 O modelo Random Forest é um classificador de ensemble que utiliza múltiplas árvores de decisão. A implementação usa 100 estimadores e é avaliada com validação cruzada K-Fold. A normalização dos dados é realizada antes do treinamento.
 
-**Métricas de Avaliação:**
-- Acurácia Média nos Folds
-- Desvio Padrão das Acurácias
-- Matriz de Confusão
-- Relatório de Classificação
-
 ## Como Executar
 
 Para executar os modelos, siga os passos abaixo:
