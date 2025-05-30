@@ -12,17 +12,17 @@ Este repositório contém implementações de três modelos de classificação (
 ## Estrutura do Projeto
 
 O projeto está organizado da seguinte forma:
-.
+```bash
 ├── dataset.py
 ├── id3.py
 ├── mlp.py
 ├── random_forest.py
 └── README.md
-
+```
 - `dataset.py`: Contém o código para carregar e pré-processar o conjunto de dados.
-- `id3.py`: Implementa o modelo de Árvore de Decisão ID3 com validação cruzada.
-- `mlp.py`: Implementa o modelo Multi-Layer Perceptron (Rede Neural Artificial) com validação cruzada.
-- `random_forest.py`: Implementa o modelo Random Forest com validação cruzada.
+- `id3.py`: Implementa o modelo de Árvore de Decisão ID3.
+- `mlp.py`: Implementa o modelo Multi-Layer Perceptron (Rede Neural Artificial).
+- `random_forest.py`: Implementa o modelo Random Forest.
 - `README.md`: Este arquivo.
 
 ## Modelos Implementados
